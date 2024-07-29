@@ -1,0 +1,52 @@
+<html>
+<head>
+      <style>
+        
+        table {
+            
+            width: 20%;
+            text-align: center;
+        }
+        .nested-table {
+            
+            border: 2px solid rgb(54, 54, 141);
+        }
+        th, td {
+            border: 1px solid rgba(0, 0, 0, 0.253);
+            padding: 10px;
+        }
+ 
+    
+    </style>
+<title>Deepa_Nested</title>
+
+</head>
+<body>
+    <table class="outer-table" border="1",>
+        <tr>
+            <td rowspan="2" >Table 1</td>
+        
+         </tr>
+        <tr>
+            <td colspan="2"> Table 1
+                
+                <table class="nested-table"  >
+                    
+                    <tr>
+                        <td style="border: 1px solid blue;">Table 2</td>
+                        <td style="border: 1px solid blue;">Table 2</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid blue;">Table 2</td>
+                        <td style="border: 1px solid blue;">Table 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Table 1</td>
+            <td colspan="2">Table 1</td>
+        </tr>
+    </table>
+</body>
+</html>
